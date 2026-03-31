@@ -2,7 +2,7 @@ package algorithm;
 
 import java.io.*;
 
-public class a10844 {
+public class a2839 {
 	
 	static BufferedReader br;
 	static BufferedWriter bw;

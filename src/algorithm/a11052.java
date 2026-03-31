@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class a2839 {
+public class a11052 {
 	
 	static BufferedReader br;
 	static BufferedWriter bw;
