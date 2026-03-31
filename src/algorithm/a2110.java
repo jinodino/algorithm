@@ -29,7 +29,6 @@ public class a2110 {
     static public int binarySearch(int c, int[] arr) {
         int low = 0;
         int high = arr[arr.length - 1];
-
         int ans = 0;
 
         while (low <= high) {
