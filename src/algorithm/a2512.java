@@ -25,13 +25,12 @@ public class a2512 {
     }
 
     static public int parametricSearch(int budget, int max, int[] arr) {
-        int low = 1;
+        int low = 0;
         int high = max;
 
         while (low <= high) {
             int mid = low + (high - low) / 2;
             int basket = 0;
-
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] > mid) {
                     basket += mid;
@@ -39,9 +38,7 @@ public class a2512 {
                     basket += arr[i];
                 }
             }
-//            System.out.println(low + " : " + high + " : " + mid);
-//            System.out.println(basket);
-
+            System.out.println(low + " " + high + " " + mid + " " + basket);
             if (budget >= basket) {
                 low = mid + 1;
             } else {
